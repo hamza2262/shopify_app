@@ -20,6 +20,10 @@ gem "jbuilder"
 gem "redis", ">= 4.0.1"
 # Use sidekiq for background jobs
 gem 'sidekiq'
+# Use Shopify App 
+gem 'shopify_app'
+# For debugging
+gem 'byebug'
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
