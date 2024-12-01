@@ -19,11 +19,11 @@ gem "jbuilder"
 # Use Redis adapter to run Action Cable in production
 gem "redis", ">= 4.0.1"
 # Use sidekiq for background jobs
-gem 'sidekiq'
-# Use Shopify App 
-gem 'shopify_app'
+gem "sidekiq"
+# Use Shopify App
+gem "shopify_app"
 # For debugging
-gem 'byebug'
+gem "byebug"
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
