@@ -18,8 +18,8 @@ ShopifyApp.configure do |config|
     { topic: "shop/redact", address: "webhooks/shop_redact" }
   ]
 
-  config.api_key = ENV.fetch("SHOPIFY_API_KEY").presence
-  config.secret = ENV.fetch("SHOPIFY_API_SECRET").presence
+  config.api_key = ENV.fetch("SHOPIFY_API_KEY", "fake_api_key").presence
+  config.secret = ENV.fetch("SHOPIFY_API_SECRET", "fake_secret_key").presence
 
   # You may want to charge merchants for using your app. Setting the billing configuration will cause the Authenticated
   # controller concern to check that the session is for a merchant that has an active one-time payment or subscription.
